@@ -1,0 +1,228 @@
+/* Clases reutilizables */
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.color-gray {
+  color: #211916;
+}
+
+.button-payment {
+  background-color: #b9373e;
+  border-radius: 13px;
+}
+
+/* Clases específicas */
+.tabs-menu li.current {
+  position: relative;
+  z-index: 5;
+}
+
+.icon-header {
+  width: 10rem;
+}
+
+.img-clock, 
+.icon-arrow {
+  width: 1.75rem;
+  height: 1.75rem;
+}
+
+.font-size-tab {
+  font-size: 0.8rem;
+}
+
+.nav-tabs {
+  border-bottom: 1px solid #ffd87f;
+}
+
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+  color: #e0aa00;
+  background-color: #fff;
+  border-color: #ffd87f #ffd87f #fff;
+}
+
+/* rgba(252, 208, 106, 0.5) */
+
+.nav-tabs .nav-link {
+  color: #5a5854;
+}
+
+.line-height {
+  line-height: 1.2;
+}
+
+.payment-code {
+  background-color: #e0aa00;
+  color: #fff;
+  height: 20vh;
+}
+
+.payment-price {
+  background-color: #f6f4f4;
+  height: 20vh;
+}
+
+.payment-expire {
+  background-color: #ffd87f;
+  height: 20vh;  
+}
+
+.font-size-payment,
+.font-size-payment-total {
+  font-size: 0.7em;
+}
+
+p#price {
+  font-size: 0.75em;
+}
+
+span#date {
+  font-size: 1.2em;
+}
+
+.lightSlider.lsGrab>* {
+  cursor: pointer;
+}
+
+ul#payment-internet {
+  height: auto!important;
+}
+
+ul#responsive li img {
+  border: 1px solid #ffd87f;
+}
+
+.icon-payment-slider,
+ul#responsive li img {
+  width: 5em;
+  border: 1px solid #ffd87f;
+}
+
+li.nav-item.icon-bank {
+  margin-right: 0!important;
+}
+
+.lSPrev {
+  background-image: url(../assets/images/prev.svg) !important;
+  background-repeat: no-repeat;
+}
+
+.lSNext {
+  background-image: url(../assets/images/next.svg) !important;
+  background-repeat: no-repeat!important;
+}
+
+ul.lSPager.lSpg {
+  display: none !important;
+}
+
+.active-bank {
+   border: 3px solid #e0aa00 !important;
+}
+
+.BCP p>span,
+.Interbank p>span,
+.Fullcarga p>span,
+.instructions,
+.mail {
+  color: #e0aa00;
+}
+
+/*footer*/
+
+.footer-icon-print {
+  width: 4em;
+  height: 3em;
+  border: 1px solid #e0aa00;
+  border-radius: 10px;
+}
+
+.payment-icon-footer {
+  width: 5em;
+}
+
+.fs-footer {
+  font-size: 0.75em;
+}
+
+.mail:hover {
+  color: #ffd87f;
+}
+
+@media (min-width: 576px) {
+  p#code {
+    font-size: 1.5em;
+  }
+
+  p#price {
+    font-size: 1em;
+  }
+  .icon-payment-slider,
+  ul#responsive li img {
+    width: 6em;
+  }
+}
+
+@media (min-width: 768px) {
+  .font-size-payment {
+    font-size: 0.9em;
+  }
+  .font-size-payment-total {
+    font-size: 1.75em;
+  }
+  .font-size-payment-instruction {
+    font-size: 1.25em;
+  }
+  .img-clock, .icon-arrow {
+    width: 2.5rem;
+    height: 2.35rem;
+  }
+  .fs-footer {
+    font-size: 0.9em;
+  }
+  .icon-payment-slider,
+  ul#responsive li img {
+    width: 9em;
+  }
+}
+
+@media (min-width: 992px) {
+  .font-size-tab {
+    font-size: 1.3rem;
+  }
+  p#code {
+    font-size: 2.5em;
+  }
+  p#price {
+    font-size: 1.3em;
+  }
+  .fs-footer {
+    font-size: 1em;
+  }
+  .payment-icon-footer {
+    width: 9em;
+  }
+  .icon-payment-slider,
+  ul#responsive li img {
+    width: 10em;
+  }
+  #payment-internet-tab1.lSAction {
+    display: none !important;
+  }
+}
+
+@media (min-width: 1200px) {
+  p#code {
+    font-size: 3em;
+  }
+  .fs-footer {
+    font-size: 1.15em;
+  }
+}
+
+@media print {
+  .icon-header {
+    margin: auto;
+  }
+}

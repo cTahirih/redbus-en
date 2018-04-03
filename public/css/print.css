@@ -1,0 +1,102 @@
+/* Clases reutilizables */
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.color-gray {
+  color: #211916;
+}
+
+.button-payment {
+  background-color: #b9373e;
+  border-radius: 13px;
+}
+
+a {
+  color: #5a5854;
+}
+
+/* Clases específicas */
+.tabs-menu li.current {
+  position: relative;
+  z-index: 5;
+}
+
+.icon-header {
+  width: 10rem;
+}
+
+.img-clock, 
+.icon-arrow {
+  width: 1.75rem;
+  height: 1.75rem;
+}
+
+.font-size-tab {
+  font-size: 0.8rem;
+}
+
+.nav-tabs {
+  border-bottom: 1px solid #ffd87f;
+}
+
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+  color: #e0aa00;
+  background-color: #fff;
+  border-color: #ffd87f #ffd87f #fff;
+}
+
+.font-size-payment,
+.font-size-payment-total {
+  font-size: 0.7em;
+}
+
+p#price {
+  font-size: 0.75em;
+}
+
+span#date {
+  font-size: 1.2em;
+}
+
+@media (min-width: 576px) {
+  p#code {
+    font-size: 1.5em;
+  }
+
+  p#price {
+    font-size: 1em;
+  }
+  .icon-payment-slider,
+  ul#responsive li img {
+    width: 6em;
+  }
+}
+
+@media (min-width: 768px) {
+  .font-size-payment {
+    font-size: 0.9em;
+  }
+  .font-size-payment-total {
+    font-size: 1.75em;
+  }
+  .font-size-payment-instruction {
+    font-size: 1.25em;
+  }
+  .img-clock, .icon-arrow {
+    width: 2.5rem;
+    height: 2.35rem;
+  }
+}
+
+@media (min-width: 992px) {
+  .font-size-tab {
+    font-size: 1.3rem;
+  }
+  p#code {
+    font-size: 2.5em;
+  }
+  p#price {
+    font-size: 1.3em;
+  }
+}
